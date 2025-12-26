@@ -7,6 +7,7 @@ import Products from '@/components/sections/Products'
 import WhyChooseUs from '@/components/sections/WhyChooseUs'
 import Partner from '@/components/sections/Partner'
 import Testimonials from '@/components/sections/Testimonials'
+import CompanyInfo from '@/components/sections/CompanyInfo'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Hero />
         <Trust />
         <About />
+        <CompanyInfo />
         <Products />
         <WhyChooseUs />
         <Partner />

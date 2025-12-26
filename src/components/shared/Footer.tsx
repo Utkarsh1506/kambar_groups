@@ -1,4 +1,5 @@
 import { Mail, Phone, MapPin } from 'lucide-react'
+import Logo from './Logo'
 
 export default function Footer() {
   return (
@@ -7,7 +8,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           {/* Company Info */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-semibold">Kambar Groups</h3>
+            <Logo textColor="text-white" />
             <p className="text-gray-400 leading-relaxed">
               Premium FMCG manufacturer and distributor trusted across India
             </p>

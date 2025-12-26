@@ -13,7 +13,7 @@ import {
 export const AboutSection: React.FC = () => {
   const timeline = [
     {
-      year: "2009",
+      year: "2018",
       title: "Founded",
       description: "Started as a small family business with a vision for quality",
     },

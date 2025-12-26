@@ -12,7 +12,7 @@ export default function Hero() {
             <div className="text-center space-y-8 mb-12">
               <div className="inline-block">
                 <span className="inline-block px-4 py-2 bg-emerald-100 text-emerald-700 rounded-full text-sm font-medium mb-6">
-                  Trusted Since 2009
+                  Trusted Since 2018
                 </span>
               </div>
               

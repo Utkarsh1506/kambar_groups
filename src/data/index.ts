@@ -521,7 +521,7 @@ export const features: Feature[] = [
 export const achievements = [
   {
     label: "Years Experience",
-    value: "15+",
+    value: "6+",
   },
   {
     label: "Products Delivered",
@@ -622,3 +622,138 @@ export const upcomingProducts: UpcomingProduct[] = [
     image: "/up11.jpeg",
   },
 ];
+
+// Company Information
+export interface Company {
+  id: string;
+  name: string;
+  type: string;
+  establishedYear: number;
+  description: string;
+  vision: string[];
+  operations: string[];
+  products: string[];
+}
+
+export interface TeamMember {
+  id: string;
+  name: string;
+  position: string;
+  image: string;
+}
+
+export interface KambarGroupInfo {
+  foundedYear: number;
+  companies: Company[];
+  teamMembers: TeamMember[];
+  futureExpansion: string;
+}
+
+export const kambarGroupInfo: KambarGroupInfo = {
+  foundedYear: 2018,
+  companies: [
+    {
+      id: "vayupro",
+      name: "Vayupro Enterprises",
+      type: "Authorized Distributor & Superstockist (C & F) for FMCG",
+      establishedYear: 2018,
+      description:
+        "Vayupro Enterprises is a trusted distributor and stockist catering to diverse retail and event needs across Goa. We supply a wide range of FMCG, beverages, and essential consumer goods with efficient delivery and personalized service.",
+      vision: [
+        "To provide seamless distribution of everyday essentials and beverages.",
+        "To build long-term relationships with retailers and event organizers.",
+        "To expand delivery and storage capacity for faster coverage.",
+        "To ensure 100% satisfaction through quality service and consistency.",
+      ],
+      operations: [
+        "Supplying goods based on store and event requirements.",
+        "Direct delivery through company vehicles.",
+        "Managing stock for bulk orders and wholesale clients.",
+        "Serving both B2B (retailers, hotels, temples, events) and B2C customers.",
+      ],
+      products: [
+        "Beverages: Coca-Cola, packaged water, energy drinks.",
+        "FMCG & Groceries: Rice, Cereals, papad, pickle, snacks, namkeen, biscuits, chocolates.",
+        "Hygiene & Personal Care: Soap, perfumes, tissue.",
+        "Event & Utility Items: Bear glass, puja items, agarbatti, dhoop.",
+        "Everyday Essentials: Household and convenience products.",
+      ],
+    },
+    {
+      id: "vsn",
+      name: "VSN Enterprises",
+      type: "Distributor of FMCG Products",
+      establishedYear: 2018,
+      description:
+        "VSN Enterprises is a professional distributor of FMCG products, serving retailers and wholesalers with a diverse product portfolio and seamless distribution network.",
+      vision: [
+        "To deliver quality FMCG products to every retail outlet.",
+        "To establish strong partnerships with retailers and wholesalers.",
+        "To maintain efficient inventory management and supply chain.",
+        "To achieve customer excellence through timely and reliable service.",
+      ],
+      operations: [
+        "Distribution of FMCG products across multiple retail channels.",
+        "Inventory management and stock optimization.",
+        "Direct delivery through dedicated logistics team.",
+        "Supporting both traditional and modern trade retailers.",
+      ],
+      products: [
+        "Beverages: Soft drinks, packaged water, energy drinks.",
+        "FMCG & Groceries: Rice, pulses, spices, condiments, snacks.",
+        "Hygiene & Personal Care: Soaps, shampoos, personal care items.",
+        "Home Care: Detergents, cleaning products, home essentials.",
+        "Specialty Items: Agarbatti, incense, puja essentials.",
+      ],
+    },
+    {
+      id: "sandeep",
+      name: "Sandeep Enterprises",
+      type: "Distributor of FMCG Products",
+      establishedYear: 2018,
+      description:
+        "Sandeep Enterprises specializes in the distribution of premium FMCG products with a focus on customer satisfaction, reliable delivery, and building lasting business relationships.",
+      vision: [
+        "To provide premium quality FMCG products to retailers.",
+        "To build long-term partnerships based on trust and quality.",
+        "To expand market coverage with efficient distribution.",
+        "To ensure customer satisfaction through consistent service.",
+      ],
+      operations: [
+        "Supply of quality FMCG products to retail outlets.",
+        "Efficient warehouse and inventory management.",
+        "Professional delivery and logistics support.",
+        "Customer support and order fulfillment.",
+      ],
+      products: [
+        "Beverages: Soft drinks, juices, packaged water, energy drinks.",
+        "Groceries & Staples: Rice, flour, cereals, lentils, cooking essentials.",
+        "Personal Care: Soaps, perfumes, deodorants, toiletries.",
+        "Home Care: Dishwash, detergents, floor cleaners, household products.",
+        "Specialty Products: Incense, fragrant oils, puja items, utility products.",
+      ],
+    },
+  ],
+  teamMembers: [
+    {
+      id: "pingal",
+      name: "Pingal Sampat Kumar Kambar",
+      position: "Chairman & Founder",
+      image: "/team/pingal.jpg",
+    },
+    {
+      id: "sampat",
+      name: "Sampat Kumar B. Kambar",
+      position: "Managing Director",
+      image: "/team/sampat.jpg",
+    },
+    {
+      id: "sandeep-lead",
+      name: "Sandeep B. Kambar",
+      position: "Chief Operating Officer (COO)",
+      image: "/team/sandeep.jpg",
+    },
+  ],
+  futureExpansion:
+    "Kambar Groups will be expanding into exporter products very soon, bringing high-quality FMCG goods to international markets.",
+};

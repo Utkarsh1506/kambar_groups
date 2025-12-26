@@ -9,7 +9,7 @@ const reasons = [
   {
     icon: TrendingUp,
     title: 'Proven Track Record',
-    description: '15+ years of consistent growth and customer satisfaction',
+    description: '6+ years of consistent growth and customer satisfaction',
   },
   {
     icon: Users,

@@ -1,6 +1,6 @@
 export default function Trust() {
   const stats = [
-    { number: '15+', label: 'Years of Excellence' },
+    { number: '6+', label: 'Years of Excellence' },
     { number: '5000+', label: 'Retail Partners' },
     { number: '50+', label: 'Premium Products' },
     { number: '12', label: 'States Covered' },

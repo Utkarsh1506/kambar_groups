@@ -40,7 +40,7 @@ export const HeroSection: React.FC = () => {
             {/* Subheadline */}
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-xl">
               Trusted by <span className="font-semibold text-emerald-600">5000+ retailers</span> across India. 
-              Delivering excellence in every product since 2009.
+              Delivering excellence in every product since 2018.
             </p>
 
             {/* CTA Buttons */}
@@ -63,7 +63,7 @@ export const HeroSection: React.FC = () => {
             {/* Stats */}
             <div className="w-full grid grid-cols-3 gap-6 pt-8 border-t border-gray-200">
               {[
-                { value: '15+', label: 'Years Experience' },
+                { value: '6+', label: 'Years Experience' },
                 { value: '5000+', label: 'Retail Partners' },
                 { value: '50+', label: 'Products' }
               ].map((stat, idx) => (

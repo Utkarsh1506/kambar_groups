@@ -1,4 +1,16 @@
+'use client'
+
+import Image from 'next/image'
+
 export default function About() {
+  // Array of inauguration images
+  const inaugurationImages = [
+    '/WhatsApp Image 2025-12-26 at 5.20.24 PM.jpeg',
+    '/WhatsApp Image 2025-12-26 at 5.20.25 PM.jpeg',
+    '/WhatsApp Image 2025-12-26 at 5.20.26 PM.jpeg',
+    '/WhatsApp Image 2025-12-26 at 5.20.27 PM.jpeg',
+  ]
+
   return (
     <section id="about" className="py-24 md:py-32 bg-white">
       <div className="max-w-7xl mx-auto px-6 md:px-10">
@@ -10,7 +22,7 @@ export default function About() {
                 OUR STORY
               </span>
               <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900 leading-tight">
-                Building Trust Since 2009
+                Building Trust Since 2018
               </h2>
             </div>
             
@@ -27,16 +39,30 @@ export default function About() {
             </div>
           </div>
 
-          {/* Visual */}
+          {/* Inauguration Photo Gallery */}
           <div className="relative">
-            <div className="bg-gradient-to-br from-emerald-500 to-emerald-700 rounded-3xl h-[450px] shadow-2xl">
-              <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC4xIj48cGF0aCBkPSJNMzYgMzRoLTJ2LTJoMnYyem0wLTRoLTJ2LTJoMnYyem0wLTRoLTJ2LTJoMnYyem0wLTRoLTJ2LTJoMnYyem0wLTRoLTJ2LTJoMnYyem0wLTRoLTJ2LTJoMnYyem0wLTRoLTJ2LTJoMnYyem0wLTRoLTJ2LTJoMnYyem0wLTRoLTJ2LTJoMnYyeiIvPjwvZz48L2c+PC9zdmc+')] opacity-20 rounded-3xl"></div>
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center text-white space-y-4">
-                  <div className="text-6xl font-bold">15+</div>
-                  <div className="text-xl font-semibold">Years of Excellence</div>
+            <div className="grid grid-cols-2 gap-4">
+              {inaugurationImages.map((image, index) => (
+                <div 
+                  key={index}
+                  className="relative rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300"
+                >
+                  <div className="relative w-full aspect-square">
+                    <Image
+                      src={image}
+                      alt={`Vayupro Enterprises Inauguration ${index + 1}`}
+                      fill
+                      className="object-cover"
+                      priority={index < 2}
+                    />
+                  </div>
                 </div>
-              </div>
+              ))}
+            </div>
+            
+            {/* Badge */}
+            <div className="absolute -bottom-4 right-6 bg-emerald-600 text-white px-6 py-3 rounded-full shadow-lg font-semibold">
+              Vayupro Inauguration
             </div>
           </div>
         </div>

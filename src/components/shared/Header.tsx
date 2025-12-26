@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
+import Logo from './Logo'
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -12,7 +13,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <span className="text-2xl font-semibold text-gray-900">Kambar Groups</span>
+            <Logo />
           </div>
 
           {/* Desktop Navigation */}
