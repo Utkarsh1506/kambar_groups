@@ -64,7 +64,7 @@ export const HeroSection: React.FC = () => {
             <div className="w-full grid grid-cols-3 gap-6 pt-8 border-t border-gray-200">
               {[
                 { value: '6+', label: 'Years Experience' },
-                { value: '5000+', label: 'Retail Partners' },
+                { value: '5000+', label: 'Retailers & Distributors' },
                 { value: '50+', label: 'Products' }
               ].map((stat, idx) => (
                 <div key={idx} className="flex flex-col items-center lg:items-start">

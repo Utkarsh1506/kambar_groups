@@ -74,7 +74,7 @@ export const products: Product[] = [
   {
     id: "4",
     name: "Bailley Water Bottles",
-    category: "Home Care",
+    category: "Food",
     description: "Leak-proof water bottles for daily hydration",
     ingredients: ["BPA-Free Plastic", "Food Grade Material"],
     benefits: ["Leak-proof", "Durable", "Easy to carry"],
@@ -128,9 +128,9 @@ export const products: Product[] = [
   },
   {
     id: "9",
-    name: "Disposal Plates",
+    name: "Eco friendly bio degradable plates",
     category: "Home Care",
-    description: "Eco-friendly disposable plates for parties and events",
+    description: "Eco-friendly biodegradable plates for parties and events",
     ingredients: ["Biodegradable Material"],
     benefits: ["Eco-friendly", "Strong & sturdy", "Convenient"],
     packaging: ["Pack of 25", "Pack of 50"],
@@ -359,9 +359,9 @@ export const products: Product[] = [
   },
   {
     id: "30",
-    name: "Disposal Bowls",
+    name: "Eco friendly bio degradable bowls",
     category: "Home Care",
-    description: "Sturdy disposable bowls for events and parties",
+    description: "Sturdy biodegradable bowls for events and parties",
     ingredients: ["Biodegradable Material"],
     benefits: ["Strong & sturdy", "Eco-friendly", "Convenient"],
     packaging: ["Pack of 20", "Pack of 50"],
@@ -414,9 +414,9 @@ export const products: Product[] = [
   },
   {
     id: "35",
-    name: "Disposal Plates",
+    name: "Eco friendly bio degradable plates",
     category: "Home Care",
-    description: "Eco-friendly disposable plates for parties and events",
+    description: "Eco-friendly biodegradable plates for parties and events",
     ingredients: ["Biodegradable Material"],
     benefits: ["Eco-friendly", "Strong & sturdy", "Convenient"],
     packaging: ["Pack of 25", "Pack of 50"],
@@ -450,44 +450,35 @@ export const products: Product[] = [
 export const testimonials: Testimonial[] = [
   {
     id: "1",
-    name: "Rajesh Kumar",
-    title: "Store Owner",
-    company: "Kumar General Store, Mumbai",
+    name: "Shivleela Groups",
+    title: "Hotels & Caterer's",
+    company: "Goa",
     content:
-      "Kambar Groups has been our trusted supplier for 3 years. Consistent quality, reliable delivery, and excellent support. Highly recommended!",
+      "Kambar Groups has been our trusted supplier for quality FMCG products. Excellent products and reliable service for our catering operations.",
     rating: 5,
-    image: "/testimonials/rajesh.jpg",
+    image: "/testimonials/shivleela.jpg",
   },
   {
     id: "2",
-    name: "Priya Sharma",
-    title: "Distributor",
-    company: "Sharma Wholesale, Delhi",
+    name: "S G Traders",
+    title: "Distributor & Wholeseller",
+    company: "Goa",
     content:
-      "Their products have excellent margins and customer demand is strong. Great partnership to grow with.",
+      "Outstanding product quality and consistent support. A reliable partner for growing our distribution business across Goa.",
     rating: 5,
-    image: "/testimonials/priya.jpg",
+    image: "/testimonials/sg-traders.jpg",
   },
   {
     id: "3",
-    name: "Amit Patel",
-    title: "Retail Manager",
-    company: "Modern Store Chain, Bangalore",
+    name: "Global Spirits",
+    title: "Wine Store",
+    company: "Goa",
     content:
-      "Professional team, quality products, and on-time delivery every single time. This is how businesses should operate.",
+      "Professional service, premium products, and dependable partnerships. Highly satisfied with the quality and reliability of Kambar Groups.",
     rating: 5,
-    image: "/testimonials/amit.jpg",
+    image: "/testimonials/global-spirits.jpg",
   },
-  {
-    id: "4",
-    name: "Sneha Desai",
-    title: "Supply Chain Officer",
-    company: "Retail Partners Inc, Pune",
-    content:
-      "Kambar Groups' logistics and inventory management systems are world-class. Very impressed with their operations.",
-    rating: 5,
-    image: "/testimonials/sneha.jpg",
-  },
+
 ];
 
 export const features: Feature[] = [
@@ -528,7 +519,7 @@ export const achievements = [
     value: "50M+",
   },
   {
-    label: "Retail Partners",
+    label: "Retailers & Distributors",
     value: "5000+",
   },
 ];
@@ -709,10 +700,10 @@ export const kambarGroupInfo: KambarGroupInfo = {
     {
       id: "sandeep",
       name: "Sandeep Enterprises",
-      type: "Distributor of FMCG Products",
+      type: "Distributor & Wholeseller of FMCG Products",
       establishedYear: 2018,
       description:
-        "Sandeep Enterprises specializes in the distribution of premium FMCG products with a focus on customer satisfaction, reliable delivery, and building lasting business relationships.",
+        "Sandeep Enterprises specializes in the distribution and wholesale of premium FMCG products with a focus on customer satisfaction, reliable delivery, and building lasting business relationships.",
       vision: [
         "To provide premium quality FMCG products to retailers.",
         "To build long-term partnerships based on trust and quality.",
@@ -737,21 +728,15 @@ export const kambarGroupInfo: KambarGroupInfo = {
   teamMembers: [
     {
       id: "pingal",
-      name: "Pingal Sampat Kumar Kambar",
+      name: "Pingal Sampatkumar Kambar",
       position: "Chairman & Founder",
-      image: "/team/pingal.jpg",
+      image: "/pingal-ceo.jpeg",
     },
     {
       id: "sampat",
-      name: "Sampat Kumar B. Kambar",
+      name: "Sampatkumar B. Kambar",
       position: "Managing Director",
-      image: "/team/sampat.jpg",
-    },
-    {
-      id: "sandeep-lead",
-      name: "Sandeep B. Kambar",
-      position: "Chief Operating Officer (COO)",
-      image: "/team/sandeep.jpg",
+      image: "/sampatkumar-md.jpeg",
     },
   ],
   futureExpansion:

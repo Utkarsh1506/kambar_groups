@@ -22,7 +22,7 @@ export default function Hero() {
               </h1>
               
               <p className="text-xl md:text-2xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
-                Trusted manufacturer and distributor delivering quality across the nation. 
+                Trusted Wholeseller & Distributor delivering quality across the nation. 
                 Partner with a brand built on reliability and growth.
               </p>
             </div>

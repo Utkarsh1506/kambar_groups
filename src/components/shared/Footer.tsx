@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="space-y-4">
             <Logo textColor="text-white" />
             <p className="text-gray-400 leading-relaxed">
-              Premium FMCG manufacturer and distributor trusted across India
+              Premium FMCG Wholeseller & Distributor trusted across India
             </p>
           </div>
 
@@ -58,7 +58,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-gray-800 text-center text-gray-400 text-sm">
-          © {new Date().getFullYear()} Kambar Groups. All rights reserved.
+          © 2022 Kambar Groups. All rights reserved.
         </div>
       </div>
     </footer>

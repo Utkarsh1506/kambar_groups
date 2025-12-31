@@ -1,6 +1,6 @@
 # Kambar Groups - Premium FMCG Brand Website
 
-A world-class, high-performance Next.js 14 (App Router) website for Kambar Groups, a trusted FMCG manufacturer and distributor. Built with premium design, conversion-focused UX, and cutting-edge animations.
+A world-class, high-performance Next.js 14 (App Router) website for Kambar Groups, a trusted FMCG Wholeseller & Distributor. Built with premium design, conversion-focused UX, and cutting-edge animations.
 
 ## 🎯 Project Overview
 

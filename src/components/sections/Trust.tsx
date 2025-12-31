@@ -1,9 +1,9 @@
 export default function Trust() {
   const stats = [
-    { number: '6+', label: 'Years of Excellence' },
-    { number: '5000+', label: 'Retail Partners' },
+    { number: '7+', label: 'Years of Excellence' },
+    { number: '5000+', label: 'Retailers & Distributors' },
     { number: '50+', label: 'Premium Products' },
-    { number: '12', label: 'States Covered' },
+    { number: '✓', label: "Goa's Best Distributor & Wholeseller" },
   ]
 
   return (

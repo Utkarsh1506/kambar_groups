@@ -57,12 +57,12 @@ export default function Products() {
               className="group bg-white rounded-2xl overflow-hidden hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-emerald-200 hover:-translate-y-2"
             >
               {/* Product Image */}
-              <div className="relative h-56 bg-gray-200 overflow-hidden">
+              <div className="relative h-56 bg-white overflow-hidden">
                 <Image
                   src={product.image}
                   alt={product.name}
                   fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-300"
+                  className="object-contain group-hover:scale-110 transition-transform duration-300 p-4"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                   priority={product.featured}
                 />

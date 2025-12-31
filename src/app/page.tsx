@@ -8,6 +8,7 @@ import WhyChooseUs from '@/components/sections/WhyChooseUs'
 import Partner from '@/components/sections/Partner'
 import Testimonials from '@/components/sections/Testimonials'
 import CompanyInfo from '@/components/sections/CompanyInfo'
+import Gallery from '@/components/sections/Gallery'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <About />
         <CompanyInfo />
         <Products />
+        <Gallery />
         <WhyChooseUs />
         <Partner />
         <Testimonials />

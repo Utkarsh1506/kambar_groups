@@ -9,12 +9,12 @@ const reasons = [
   {
     icon: TrendingUp,
     title: 'Proven Track Record',
-    description: '6+ years of consistent growth and customer satisfaction',
+    description: '7+ years of consistent growth and customer satisfaction',
   },
   {
     icon: Users,
     title: 'Strong Network',
-    description: '5000+ retail partners and distributors across India',
+    description: '5000+ Retailers & Distributors across India',
   },
   {
     icon: Award,
@@ -28,8 +28,8 @@ const reasons = [
   },
   {
     icon: Globe,
-    title: 'Pan-India Reach',
-    description: 'Coverage across 12 states with expanding footprint',
+    title: 'Goa Reach',
+    description: 'Comprehensive coverage across Goa with expanding footprint',
   },
 ]
 

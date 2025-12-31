@@ -2,19 +2,19 @@ import { Quote } from 'lucide-react'
 
 const testimonials = [
   {
-    name: 'Rajesh Kumar',
-    role: 'Distributor, Delhi',
-    text: 'Partnering with Kambar Groups has been a game-changer for our business. Quality products and excellent support.',
+    name: 'Shivleela Groups',
+    role: 'Hotels & Caterer\'s',
+    text: 'Kambar Groups has been our trusted supplier for quality FMCG products. Excellent products and reliable service.',
   },
   {
-    name: 'Priya Sharma',
-    role: 'Retail Owner, Mumbai',
-    text: 'Their product range is impressive and our customers love the quality. Highly recommend.',
+    name: 'S G Traders',
+    role: 'Distributor & Wholeseller',
+    text: 'Outstanding product quality and consistent support. A reliable partner for growing our business in Goa.',
   },
   {
-    name: 'Amit Patel',
-    role: 'Wholesaler, Gujarat',
-    text: 'Professional service and timely deliveries. A trustworthy partner for long-term growth.',
+    name: 'Global Spirits',
+    role: 'Wine Store',
+    text: 'Professional service, premium products, and dependable partnerships. Highly satisfied with Kambar Groups.',
   },
 ]
 

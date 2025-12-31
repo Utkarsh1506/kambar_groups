@@ -25,7 +25,7 @@ export default function Partner() {
               </h2>
             </div>
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
-              Join a growing network of successful partners across India
+              Join a growing network of successful partners across Goa
             </p>
           </div>
 

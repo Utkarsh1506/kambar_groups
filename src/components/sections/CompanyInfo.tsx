@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { fadeInUpVariants, containerVariants } from "@/lib/animations";
 import { kambarGroupInfo } from "@/data";
@@ -123,23 +124,35 @@ export default function CompanyInfo() {
             Leadership Team
           </motion.h3>
           
-          <div className="grid md:grid-cols-3 gap-8">
-            {teamMembers.map((member) => (
-              <motion.div
-                key={member.id}
-                variants={fadeInUpVariants}
-                className="text-center"
-              >
-                <div className="mb-6">
-                  <div className="w-48 h-48 mx-auto bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-2xl flex items-center justify-center shadow-lg">
-                    <Users className="w-24 h-24 text-white opacity-50" />
+          <div className="flex justify-center">
+            <div className="grid md:grid-cols-2 gap-8 max-w-2xl">
+              {teamMembers.map((member) => (
+                <motion.div
+                  key={member.id}
+                  variants={fadeInUpVariants}
+                  className="text-center"
+                >
+                  <div className="mb-6">
+                    <div className="relative w-48 h-48 mx-auto bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-2xl flex items-center justify-center shadow-lg overflow-hidden">
+                      {member.image && member.image !== '/team/sandeep.jpg' ? (
+                        <Image
+                          src={member.image}
+                          alt={member.name}
+                          fill
+                          className="object-cover"
+                          priority
+                        />
+                      ) : (
+                        <Users className="w-24 h-24 text-white opacity-50" />
+                      )}
+                    </div>
                   </div>
-                </div>
-                <h4 className="text-xl font-bold text-gray-900 mb-2">{member.name}</h4>
-                <p className="text-emerald-600 font-semibold mb-4">{member.position}</p>
-                <div className="w-16 h-1 bg-gradient-to-r from-emerald-500 to-emerald-600 mx-auto"></div>
-              </motion.div>
-            ))}
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">{member.name}</h4>
+                  <p className="text-emerald-600 font-semibold mb-4">{member.position}</p>
+                  <div className="w-16 h-1 bg-gradient-to-r from-emerald-500 to-emerald-600 mx-auto"></div>
+                </motion.div>
+              ))}
+            </div>
           </div>
         </motion.div>
 
