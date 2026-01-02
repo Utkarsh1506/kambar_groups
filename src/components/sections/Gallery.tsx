@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import { motion } from 'framer-motion'
+import { motion, type Variants } from 'framer-motion'
 
 const galleryImages = [
   { id: 1, src: '/WhatsApp Image 2025-12-26 at 5.20.24 PM.jpeg', alt: 'Company inauguration event' },
@@ -20,7 +20,7 @@ const galleryImages = [
   { id: 14, src: '/WhatsApp Image 2025-12-26 at 5.20.38 PM.jpeg', alt: 'Company inauguration event' },
 ]
 
-const containerVariants = {
+const containerVariants: Variants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
@@ -31,7 +31,7 @@ const containerVariants = {
   },
 }
 
-const imageVariants = {
+const imageVariants: Variants = {
   hidden: { opacity: 0, scale: 0.8 },
   visible: {
     opacity: 1,
