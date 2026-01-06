@@ -9,7 +9,7 @@ export const PartnerCTA: React.FC = () => {
     { icon: <CheckCircle2 className="w-5 h-5" />, text: "Guaranteed profit margins" },
     { icon: <CheckCircle2 className="w-5 h-5" />, text: "Timely deliveries" },
     { icon: <CheckCircle2 className="w-5 h-5" />, text: "Marketing support" },
-    { icon: <CheckCircle2 className="w-5 h-5" />, text: "Dedicated account manager" },
+    { icon: <CheckCircle2 className="w-5 h-5" />, text: "Priority customer support" },
     { icon: <CheckCircle2 className="w-5 h-5" />, text: "Easy return policy" },
     { icon: <CheckCircle2 className="w-5 h-5" />, text: "Volume discounts" },
   ];
@@ -95,19 +95,19 @@ export const PartnerCTA: React.FC = () => {
             <p className="text-gray-600 font-medium">Questions? Contact us at</p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 text-gray-700">
               <a
-                href="mailto:partnership@kambargroups.com"
+                href="mailto:vaayuproent6666@gmail.com"
                 className="flex items-center gap-2 hover:text-emerald-600 transition-colors"
               >
                 <Mail className="w-5 h-5" />
-                <span className="font-medium">partnership@kambargroups.com</span>
+                <span className="font-medium">vaayuproent6666@gmail.com</span>
               </a>
               <span className="hidden sm:inline text-gray-400">|</span>
               <a
-                href="tel:+91XXXXXXXXXX"
+                href="tel:+919226430700"
                 className="flex items-center gap-2 hover:text-emerald-600 transition-colors"
               >
                 <Phone className="w-5 h-5" />
-                <span className="font-medium">+91 XXXX XXX XXX</span>
+                <span className="font-medium">+91 9226430700</span>
               </a>
             </div>
           </motion.div>

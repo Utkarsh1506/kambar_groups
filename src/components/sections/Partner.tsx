@@ -5,7 +5,7 @@ const benefits = [
   'Marketing support and materials',
   'Competitive profit margins',
   'Regular product training',
-  'Dedicated account manager',
+  'Priority customer support',
   'Fast order processing',
 ]
 

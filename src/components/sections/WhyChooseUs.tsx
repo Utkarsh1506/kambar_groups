@@ -14,7 +14,7 @@ const reasons = [
   {
     icon: Users,
     title: 'Strong Network',
-    description: '5000+ Retailers & Distributors across India',
+    description: '5000+ Retailers & Distributors across Goa',
   },
   {
     icon: Award,

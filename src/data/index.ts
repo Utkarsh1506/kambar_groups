@@ -149,17 +149,6 @@ export const products: Product[] = [
     featured: false,
   },
   {
-    id: "11",
-    name: "EDW Hydrogen Infused Water",
-    category: "Food",
-    description: "Premium hydrogen-infused water for better health",
-    ingredients: ["Pure Water", "Hydrogen"],
-    benefits: ["Antioxidant-rich", "Boosts energy", "Better hydration"],
-    packaging: ["500ml", "1L"],
-    image: "/product-11.jpg",
-    featured: false,
-  },
-  {
     id: "12",
     name: "Kavya Premium Dhoop Sticks",
     category: "Home Care",
@@ -445,6 +434,28 @@ export const products: Product[] = [
     image: "/product-37.jpg",
     featured: false,
   },
+  {
+    id: "38",
+    name: "Premium Rice",
+    category: "Food",
+    description: "High-quality premium basmati rice with superior taste and aroma",
+    ingredients: ["100% Pure Basmati Rice"],
+    benefits: ["Long grain", "Fluffy texture", "Premium quality", "Rich aroma"],
+    packaging: ["1kg", "2kg", "5kg"],
+    image: "/Premium Rice.jpeg",
+    featured: true,
+  },
+  {
+    id: "39",
+    name: "Svadist Papad - Red Chilly",
+    category: "Food",
+    description: "Authentic handmade red chilly papad with traditional taste",
+    ingredients: ["Red Chilly", "Urad Dal", "Salt", "Spices"],
+    benefits: ["Authentic taste", "Crispy texture", "Traditional recipe", "Flavorful"],
+    packaging: ["200g", "400g", "500g"],
+    image: "/Svadist Papad - Red Chilly.jpeg",
+    featured: true,
+  },
 ];
 
 export const testimonials: Testimonial[] = [
@@ -492,7 +503,7 @@ export const features: Feature[] = [
   {
     id: "2",
     title: "Pan-India Distribution",
-    description: "Reach every corner with our nationwide logistics network",
+    description: "Reach every corner with our across Goa logistics network",
     icon: "Truck",
   },
   {
@@ -611,6 +622,34 @@ export const upcomingProducts: UpcomingProduct[] = [
     comingSoon: "February 2026",
     category: "Food",
     image: "/up11.jpeg",
+  },
+  {
+    id: "up12",
+    name: "Kadaknath Egg",
+    comingSoon: "February 2026",
+    category: "Food",
+    image: "/Kadaknath Egg.jpeg",
+  },
+  {
+    id: "up13",
+    name: "Liberty Diapers and Sanitary Pads",
+    comingSoon: "March 2026",
+    category: "Personal Care",
+    image: "/Liberty Diapers and Sanitary Pads.jpeg",
+  },
+  {
+    id: "up14",
+    name: "Nandini Dairy Products",
+    comingSoon: "March 2026",
+    category: "Food",
+    image: "/Nandini Dairy Products.jpeg",
+  },
+  {
+    id: "up15",
+    name: "EDW Hydrogen Infused Water",
+    comingSoon: "March 2026",
+    category: "Food",
+    image: "/product-11.jpg",
   },
 ];
 

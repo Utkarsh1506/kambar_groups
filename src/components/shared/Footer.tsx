@@ -42,15 +42,15 @@ export default function Footer() {
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-gray-400">
                 <Mail size={18} />
-                <span>info@kambargroups.com</span>
+                <span>vaayuproent6666@gmail.com</span>
               </div>
               <div className="flex items-center gap-3 text-gray-400">
                 <Phone size={18} />
-                <span>+91 98765 43210</span>
+                <span>+91 9226430700</span>
               </div>
               <div className="flex items-center gap-3 text-gray-400">
                 <MapPin size={18} />
-                <span>Mumbai, India</span>
+                <span>Ponda, Goa</span>
               </div>
             </div>
           </div>

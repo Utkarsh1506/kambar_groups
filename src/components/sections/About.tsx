@@ -31,10 +31,10 @@ export default function About() {
                 Kambar Groups started with a simple vision: deliver premium FMCG products that Indian families can trust.
               </p>
               <p>
-                Today, we manufacture and distribute a wide range of products across multiple categories, serving thousands of retailers and millions of consumers nationwide.
+                Today, we distribute a wide range of products across multiple categories, serving thousands of retailers and millions of consumers across Goa.
               </p>
               <p className="font-medium text-gray-900">
-                Our commitment to quality, transparency, and growth has made us a preferred partner for distributors and retailers across India.
+                Our commitment to quality, transparency, and growth has made us a preferred partner for distributors and retailers across Goa.
               </p>
             </div>
           </div>

@@ -14,8 +14,8 @@ export default function Logo({ className = '', textColor = 'text-gray-900' }: Lo
         </div>
       </div>
       <div className="flex flex-col">
-        <span className={`font-bold text-lg ${textColor} leading-tight`}>Kambar</span>
-        <span className={`text-xs font-semibold text-emerald-600`}>Groups</span>
+        <span className={`font-black text-xl ${textColor} leading-tight tracking-wide uppercase`}>Kambar</span>
+        <span className={`text-xs font-black text-emerald-600 uppercase tracking-widest`}>Groups</span>
       </div>
     </a>
   )
