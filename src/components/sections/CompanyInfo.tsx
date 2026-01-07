@@ -28,7 +28,7 @@ export default function CompanyInfo() {
               Trusted FMCG Distributor Since 2018
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Kambar Groups operates three specialized companies dedicated to providing premium FMCG products and distribution services across Goa.
+              <strong>KAMBAR GROUPS</strong> operates three specialized companies dedicated to providing premium FMCG products and distribution services across Goa.
             </p>
           </motion.div>
         </motion.div>

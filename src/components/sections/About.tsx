@@ -28,7 +28,7 @@ export default function About() {
             
             <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
               <p>
-                Kambar Groups started with a simple vision: deliver premium FMCG products that Indian families can trust.
+                <strong>KAMBAR GROUPS</strong> started with a simple vision: deliver premium FMCG products that Indian families can trust.
               </p>
               <p>
                 Today, we distribute a wide range of products across multiple categories, serving thousands of retailers and millions of consumers across Goa.
@@ -50,7 +50,7 @@ export default function About() {
                   <div className="relative w-full aspect-square">
                     <Image
                       src={image}
-                      alt={`Vayupro Enterprises Inauguration ${index + 1}`}
+                      alt={`Vaayupro Enterprises Inauguration ${index + 1}`}
                       fill
                       className="object-cover"
                       priority={index < 2}
@@ -62,7 +62,7 @@ export default function About() {
             
             {/* Badge */}
             <div className="absolute -bottom-4 right-6 bg-emerald-600 text-white px-6 py-3 rounded-full shadow-lg font-semibold">
-              Vayupro Inauguration
+              Vaayupro Inauguration
             </div>
           </div>
         </div>

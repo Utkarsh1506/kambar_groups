@@ -5,7 +5,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Kambar Groups - Premium FMCG Wholeseller & Distributor',
+  title: 'KAMBAR GROUPS - Premium FMCG Wholeseller & Distributor',
   description: 'Trusted FMCG Wholeseller & Distributor delivering quality products across India. Partner with us for growth.',
 }
 

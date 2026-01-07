@@ -53,7 +53,7 @@ export const AboutSection: React.FC = () => {
                 <span className="bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">Our Story</span>
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Kambar Groups started with a simple vision: deliver quality FMCG
+                <strong>KAMBAR GROUPS</strong> started with a simple vision: deliver quality FMCG
                 products that retailers can trust and consumers love. Over the past
                 15 years, we've built a reputation for excellence, consistency, and
                 customer-centricity.

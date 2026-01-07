@@ -2,11 +2,6 @@ import { Shield, TrendingUp, Users, Award, Zap, Globe } from 'lucide-react'
 
 const reasons = [
   {
-    icon: Shield,
-    title: 'Quality Assurance',
-    description: 'Every product undergoes rigorous testing to meet the highest standards',
-  },
-  {
     icon: TrendingUp,
     title: 'Proven Track Record',
     description: '7+ years of consistent growth and customer satisfaction',
@@ -15,11 +10,6 @@ const reasons = [
     icon: Users,
     title: 'Strong Network',
     description: '5000+ Retailers & Distributors across Goa',
-  },
-  {
-    icon: Award,
-    title: 'Industry Recognition',
-    description: 'Certified and awarded for excellence in manufacturing',
   },
   {
     icon: Zap,
@@ -53,7 +43,7 @@ export default function WhyChooseUs() {
         </div>
 
         {/* Reasons Grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {reasons.map((reason, index) => {
             const Icon = reason.icon
             return (

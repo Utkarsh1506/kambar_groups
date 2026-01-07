@@ -128,7 +128,7 @@ export const products: Product[] = [
   },
   {
     id: "9",
-    name: "Eco friendly bio degradable plates",
+    name: "Plates",
     category: "Home Care",
     description: "Eco-friendly biodegradable plates for parties and events",
     ingredients: ["Biodegradable Material"],
@@ -403,7 +403,7 @@ export const products: Product[] = [
   },
   {
     id: "35",
-    name: "Eco friendly bio degradable plates",
+    name: "Plates",
     category: "Home Care",
     description: "Eco-friendly biodegradable plates for parties and events",
     ingredients: ["Biodegradable Material"],
@@ -465,7 +465,7 @@ export const testimonials: Testimonial[] = [
     title: "Hotels & Caterer's",
     company: "Goa",
     content:
-      "Kambar Groups has been our trusted supplier for quality FMCG products. Excellent products and reliable service for our catering operations.",
+      "<strong>KAMBAR GROUPS</strong> has been our trusted supplier for quality FMCG products. Excellent products and reliable service for our catering operations.",
     rating: 5,
     image: "/testimonials/shivleela.jpg",
   },
@@ -485,7 +485,7 @@ export const testimonials: Testimonial[] = [
     title: "Wine Store",
     company: "Goa",
     content:
-      "Professional service, premium products, and dependable partnerships. Highly satisfied with the quality and reliability of Kambar Groups.",
+      "Professional service, premium products, and dependable partnerships. Highly satisfied with the quality and reliability of <strong>KAMBAR GROUPS</strong>.",
     rating: 5,
     image: "/testimonials/global-spirits.jpg",
   },
@@ -683,12 +683,12 @@ export const kambarGroupInfo: KambarGroupInfo = {
   foundedYear: 2018,
   companies: [
     {
-      id: "vayupro",
-      name: "Vayupro Enterprises",
+      id: "vaayupro",
+      name: "Vaayupro Enterprises",
       type: "Authorized Distributor & Superstockist (C & F) for FMCG",
       establishedYear: 2018,
       description:
-        "Vayupro Enterprises is a trusted distributor and stockist catering to diverse retail and event needs across Goa. We supply a wide range of FMCG, beverages, and essential consumer goods with efficient delivery and personalized service.",
+        "Vaayupro Enterprises is a trusted distributor and stockist catering to diverse retail and event needs across Goa. We supply a wide range of FMCG, beverages, and essential consumer goods with efficient delivery and personalized service.",
       vision: [
         "To provide seamless distribution of everyday essentials and beverages.",
         "To build long-term relationships with retailers and event organizers.",
@@ -779,5 +779,5 @@ export const kambarGroupInfo: KambarGroupInfo = {
     },
   ],
   futureExpansion:
-    "Kambar Groups will be expanding into exporter products very soon, bringing high-quality FMCG goods to international markets.",
+    "<strong>KAMBAR GROUPS</strong> will be expanding into exporter products very soon, bringing high-quality FMCG goods to international markets.",
 };

@@ -28,7 +28,7 @@ export default function Products() {
             </h2>
           </div>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Premium quality products across multiple categories, trusted by families and retailers nationwide
+            Premium quality products across multiple categories, trusted by families and retailers across Goa
           </p>
         </div>
 

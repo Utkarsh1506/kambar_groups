@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="space-y-4">
             <Logo textColor="text-white" />
             <p className="text-gray-400 leading-relaxed">
-              Premium FMCG Wholeseller & Distributor trusted across India
+              Premium FMCG Wholeseller & Distributor trusted across Goa
             </p>
           </div>
 
@@ -42,11 +42,11 @@ export default function Footer() {
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-gray-400">
                 <Mail size={18} />
-                <span>vaayuproent6666@gmail.com</span>
+                <span>k1groupsv6@gmail.com</span>
               </div>
               <div className="flex items-center gap-3 text-gray-400">
                 <Phone size={18} />
-                <span>+91 9226430700</span>
+                <span>+918623866166</span>
               </div>
               <div className="flex items-center gap-3 text-gray-400">
                 <MapPin size={18} />
@@ -58,7 +58,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-gray-800 text-center text-gray-400 text-sm">
-          © 2022 Kambar Groups. All rights reserved.
+          © 2022 <strong>KAMBAR GROUPS</strong>. All rights reserved.
         </div>
       </div>
     </footer>
