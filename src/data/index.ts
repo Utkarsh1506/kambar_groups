@@ -465,7 +465,7 @@ export const testimonials: Testimonial[] = [
     title: "Hotels & Caterer's",
     company: "Goa",
     content:
-      "<strong>KAMBAR GROUPS</strong> has been our trusted supplier for quality FMCG products. Excellent products and reliable service for our catering operations.",
+      "KAMBAR GROUPS has been our trusted supplier for quality FMCG products. Excellent products and reliable service for our catering operations.",
     rating: 5,
     image: "/testimonials/shivleela.jpg",
   },
@@ -485,7 +485,7 @@ export const testimonials: Testimonial[] = [
     title: "Wine Store",
     company: "Goa",
     content:
-      "Professional service, premium products, and dependable partnerships. Highly satisfied with the quality and reliability of <strong>KAMBAR GROUPS</strong>.",
+      "Professional service, premium products, and dependable partnerships. Highly satisfied with the quality and reliability of KAMBAR GROUPS.",
     rating: 5,
     image: "/testimonials/global-spirits.jpg",
   },
@@ -779,5 +779,5 @@ export const kambarGroupInfo: KambarGroupInfo = {
     },
   ],
   futureExpansion:
-    "<strong>KAMBAR GROUPS</strong> will be expanding into exporter products very soon, bringing high-quality FMCG goods to international markets.",
+    "KAMBAR GROUPS will be expanding into exporter products very soon, bringing high-quality FMCG goods to international markets.",
 };

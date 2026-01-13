@@ -58,7 +58,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-gray-800 text-center text-gray-400 text-sm">
-          © 2022 <strong>KAMBAR GROUPS</strong>. All rights reserved.
+          © 2022 <span className="font-bold">KAMBAR GROUPS</span>. All rights reserved.
         </div>
       </div>
     </footer>

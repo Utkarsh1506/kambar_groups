@@ -28,7 +28,7 @@ export default function About() {
             
             <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
               <p>
-                <strong>KAMBAR GROUPS</strong> started with a simple vision: deliver premium FMCG products that Indian families can trust.
+                <span className="font-bold">KAMBAR GROUPS</span> started with a simple vision: deliver premium FMCG products that Indian families can trust.
               </p>
               <p>
                 Today, we distribute a wide range of products across multiple categories, serving thousands of retailers and millions of consumers across Goa.
